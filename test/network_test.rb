@@ -3,7 +3,6 @@ require 'minitest/pride'
 require './lib/character'
 require './lib/show'
 require './lib/network'
-require 'pry'
 
 class NetworkTest < MiniTest::Test
 
