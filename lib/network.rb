@@ -1,6 +1,5 @@
 require './lib/show'
 require './lib/character'
-require 'pry'
 
 class Network
 
