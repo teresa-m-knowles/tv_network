@@ -28,16 +28,9 @@ class Network
     highest_paid_character.actor
   end
 
-def payroll
-  actor_salary = Hash.new
-
-  @all_characters.each do |character|
-    actor_salary[character.actor] = character.salary
+  def payroll
+    Hash[@all_characters.map { |character| [character.actor, character.salary]}]
   end
 
-  actor_salary
-
-
-end
 
 end
