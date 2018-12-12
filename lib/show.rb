@@ -1,5 +1,4 @@
 require './lib/character'
-require 'pry'
 
 class Show
 
