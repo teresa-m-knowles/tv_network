@@ -20,8 +20,8 @@ class Show
     @characters.each do |character|
       sum += character.salary
     end
-
-    return sum
-
+    sum 
   end
+
+
 end
