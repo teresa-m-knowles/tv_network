@@ -5,7 +5,7 @@ require './lib/character'
 class CharacterTest < MiniTest::Test
 
   def test_it_exists
-    skip
+
     kitt = Character.new({name: "KITT",
                           actor: "William Daniels",
                           salary: 1_000_000})
@@ -14,7 +14,7 @@ class CharacterTest < MiniTest::Test
   end
 
   def test_it_has_a_name
-    skip
+
     kitt = Character.new({name: "KITT",
                           actor: "William Daniels",
                           salary: 1_000_000})
@@ -23,7 +23,7 @@ class CharacterTest < MiniTest::Test
   end
 
   def test_it_has_an_actor
-    skip
+
     kitt = Character.new({name: "KITT",
                           actor: "William Daniels",
                           salary: 1_000_000})
